@@ -1,0 +1,50 @@
+body{
+    background-color: #222325;
+}
+
+.nav{
+    color: #FEFEFE;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.logo{
+    
+}
+
+.logo__full{
+    
+}
+
+.logo__1{
+    font-family: 'Oregano';
+    font-size: 48px;
+    color: #00C236;
+}
+.logo__2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    color: #FEFEFE;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color:#FEFEFE;
+    font-weight: 700;
+}
+
+.title__huj{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color:#00C236;
+    font-weight: 700;
+}
+
+.desc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color:#FEFEFE;
+    font-weight: 600;
+}
