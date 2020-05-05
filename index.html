@@ -8,56 +8,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oregano&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css.css">
     <title>huj bot</title>
 </head>
 
 <body>
-    <a href="index.html" class='logo'>
-        <div class="logo__full">
-            <span class=logo__1>huj</span>
-            <span class=logo__2>bot</span>
-        </div>
-    </a>
-
-    <nav>
-        <ul>
-            <li class="nav">Features</li>
-            <li class="nav">Our Discord</li>
-            <li class="nav">Help</li>
-            <li class="nav">Login</li>
-        </ul>
+    <nav class="head">
+        <a href="index.html" class='logo'>
+            <div class="logo__full">
+                <span class=logo__1>huj</span>
+                <span class=logo__2>bot</span>
+            </div>
+        </a>
+    
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list--item">Features</li>
+                <li class="nav__list--item">Our Discord</li>
+                <li class="nav__list--item">Help</li>
+                <li class="nav__list--item">Login</li>
+            </ul>
+        </nav>
     </nav>
+    
     <main class="main">
-        <header>
-            <h1 class="title">Siema, tu <span class="title__huj">Huj</span>, jestem botem. </h1>
-        </header>
-        <article>
-            <p class="desc">Umiem póki co mało rzeczy, ale ciągle uczę się nowych rzeczy. Potrafię odpowiedzieć na
-                najtrudniejsze pytania dręczące wielkich myślicieli tego świata. Reagowanie na różnorakie wiadomości
-                również jest w moich kompetencjach. Nie jestem aż takim zwyrolem, dlatego codziennie o 21:37 przypominam
-                wszyskim o pewnym pięknym dniu. Mogę też nieźle wkurwić, jeśli tylko będę miał na to ochotę :)</p>
-        </article>
 
-        <button class="cta">
-            <a href="">Zaproś mnie!</a>
-        </button>
-
-        <svg width="313" height="313" viewBox="0 0 313 313" fill="none">
-            <circle cx="156.5" cy="156.5" r="156.5" fill="#00C236"/>
-            <circle cx="156.5" cy="156.5" r="156.5" fill="url(#pattern0)"/>
-            <defs>
-            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-            <use xlink:href="#image0" transform="translate(-0.265982 0.100175) scale(0.0103093)"/>
-            </pattern>
-            <image id="image0" width="131" height="97" link: href='pics/huj2.png'></image>
-            </defs>
+        <div class="main__content">
+            <header>
+                <h1 class="title">Siema, tu <span class="title__huj">Huj</span>, jestem botem. </h1>
+            </header>
+            <article>
+                <p class="desc">Umiem póki co mało rzeczy, ale ciągle uczę się nowych rzeczy. Potrafię odpowiedzieć na
+                    najtrudniejsze pytania dręczące wielkich myślicieli tego świata. Reagowanie na różnorakie wiadomości
+                    również jest w moich kompetencjach. Nie jestem aż takim zwyrolem, dlatego codziennie o 21:37 przypominam
+                    wszyskim o pewnym pięknym dniu. Mogę też nieźle wkurwić, jeśli tylko będę miał na to ochotę :)</p>
+            </article>
+    
+            <div class="cta">
+                <a href="" class="cta__link">Zaproś mnie!</a>
+            </div>
+        </div>
+    
+        <div class="peepo">
+            <svg width="313" height="313" viewBox="0 0 313 313" fill="none">
+                <circle cx="156.5" cy="156.5" r="156.5" fill="#00C236" />
+                <circle cx="156.5" cy="156.5" r="156.5" fill="url(#pattern0)" />
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="translate(-0.265982 0.100175) scale(0.0103093)" />
+                    </pattern>
+                    <image id="image0" width="131" height="97" link: href='pics/huj2.png'></image>
+                </defs>
             </svg>
-            
+            <p class="nav__status">Obecnie jestem:<span class="nav__botstatus"> ONLINE</span></p>
+        </div>
+
 
         
+
+        
+
+
+
     </main>
+
+    <footer class="footer">Copyright © 2020 hujbot</footer>
 
 </body>
 
