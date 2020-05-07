@@ -8,9 +8,9 @@ let y = 2;
 const peepoSpin = () => {
   degs = degs + 360;
 
-  let peepo = document.querySelector(".peepo__circle");
+  let peepo = document.querySelector(".peepo__circle--spin");
   peepo.style.transform = `rotate(${degs}deg)`;
-  //peepo.style.width = '310px';p
+  //peepo.style.width = '310px';
   //peepo.style.height = '310px';
 
   /*
