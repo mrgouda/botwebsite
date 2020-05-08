@@ -101,6 +101,10 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   text-align: center;
 }
 
+.dot{
+  padding-right: 20px;
+}
+
 .footer {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -167,7 +171,35 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
 }
 
 .main-features {
-  margin-top: 128px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-features--fix {
+  margin-top: 14px;
+}
+
+.main-features__title{
+  display: flex;
+  align-self: flex-start;
+}
+
+.main-features__papieska{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-features__papieska-article{
+
+}
+
+.main-features__papieska-title{
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
 .navigation {
@@ -240,8 +272,13 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   font-size: 36px;
   color: #fefefe;
   font-weight: 700;
+  line-height: 42px;
 }
 
+.title--blob{
+  position: relative;
+  left: 16px;
+}
 
 .title__huj {
   font-family: "Raleway", sans-serif;
@@ -250,10 +287,20 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   font-weight: 700;
 }
 
+.title__huj-404 {
+  font-size: 48px;
+}
+
 .title-404 {
   font-size: 48px;
   text-align: center;
 }
-.title__huj-404 {
-  font-size: 48px;
+
+.title-container{
+padding-bottom: 5.5px;
+}
+
+.title-blob{
+  position: relative;
+  top: 50px;
 }
