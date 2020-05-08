@@ -87,6 +87,7 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   max-width: 650px;
   line-height: 18px;
   margin-top: 48px;
+  padding-left: 36px;
 }
 
 .description-404 {
@@ -180,7 +181,7 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   margin-top: 14px;
 }
 
-.main-features__title{
+.main-features__header{
   display: flex;
   align-self: flex-start;
 }
@@ -192,14 +193,18 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
   align-items: center;
 }
 
-.main-features__papieska-article{
 
-}
-
-.main-features__papieska-title{
+.main-features__title{
 display: flex;
 flex-direction: row;
 align-items: center;
+}
+
+.main-features__8ball{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation {
