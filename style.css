@@ -120,10 +120,22 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
 }
 
 .head {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #222325;
+  /*background: rgba(34, 35, 37, 0.01);
+  backdrop-filter: blur(8px);*/
+  width: 100%;
+  z-index: 2137;
+}
+
+.head__wrapper{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 64px;
+  padding: 16px 64px;
+  
 }
 
 .logo {
@@ -182,7 +194,7 @@ box-shadow: 0px 0.913195px 2.21381px rgba(0, 194, 54, 0.0394), 0px 2.19453px 5.3
 }
 
 .main-features--fix {
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .main-features__header {
